@@ -3,6 +3,7 @@ The data of BigMart have collected from 2013 sales data for 1559 products across
 Summary
 Compairing all the model
  LinearRegression : LinearRegression Model accuracy: 58.13%
+ 
      > Single score 0.5813205293585394
      > Cross score 0.5615012242066324
      > Regressioin metrics on the test set
@@ -13,6 +14,7 @@ Compairing all the model
      
      
  Random Forest Regressor : RandomForstRegressor Model accuracy: 50.36%
+ 
      > Single score 0.503628724218331
      > Cross score 0.49845328691278307
      > Regressioin metrics on the test set
@@ -24,6 +26,7 @@ Compairing all the model
      
      
  XGBoost : XGBoost Model accuracy: 50.36%
+ 
      > Single score 0.5186832630696916
      > Cross score 0.5120293402057186
      > XGBoost Regressioin metrics on the test set
@@ -32,4 +35,5 @@ Compairing all the model
      > Mean_Square_Error : 1308204.2651987132
      > ROOT MEAN SQUARED ERROR(RMSE) 1066.7511794158186
      > SCORE 0.5813205293585394
+     
 We discovered that the Linear Regression model gave us the most incredible score, 58.13%, out of all the tested models we tested. As a result, we conclude that linear regression is our predictive model and complete our investigation.
